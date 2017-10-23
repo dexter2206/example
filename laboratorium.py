@@ -5,3 +5,7 @@ class Employee(object):
         self.name = name
         self.surname = surname
         self.salary = salary
+        
+    @property
+    def full_name(self):
+        return self.name + ' ' + self.surname
