@@ -9,3 +9,6 @@ class Employee(object):
     @property
     def full_name(self):
         return self.name + ' ' + self.surname
+    
+    def get_paycheck(self, hours):
+        return self.salary * hours
