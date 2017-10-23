@@ -10,5 +10,5 @@ class Employee(object):
     def full_name(self):
         return self.name + ' ' + self.surname
     
-    def get_paycheck(self, hours):
-        return self.salary * hours
+    def get_paycheck(self, hours, bonus):
+        return self.salary * hours + bonus
