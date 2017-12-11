@@ -11,4 +11,5 @@ class Employee(object):
         return self.name + ' ' + self.surname
     
     def calculate_payment(self, hours, bonus):
+        """Calculate payment for the employee based on hours worked."""
         return self.salary * hours + bonus
